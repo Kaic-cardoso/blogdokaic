@@ -1,0 +1,317 @@
+/*salvar como estilos.css*/
+/*
+Vamos definir as configurações padrões do corpo da página,
+dos principais comandos e do parágrafo
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC url('../imagens/fundo.png') repeat-x;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* repeat-x repte a imagem de fudo s´na vertical 
+repeat-y repete a imagem só na horizontal ; repeat repete até completar toda a página */
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none; /* list-style-type não deixa aparecer a bolinha das listas  */ 
+}
+
+/*
+definição dos links
+*/
+a:houver{
+	color:blue;
+	
+}
+
+a:link, a:visited {
+	color: #333;
+	background: gray;
+}
+
+nav  {
+	background:#832A91;
+	float: center; 
+	font-size: 1.4em;
+	
+	}
+
+nav h1 {
+    color: #ccc;
+}
+
+nav ul{
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	font-size: 2em;
+	font-weight: bolder;
+	text-align:center;
+	background:none;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	
+	}
+
+nav li a {
+	color: ##FFFFFF;
+	text-decoration: none;
+	
+	
+}
+nav li a:link,nav li a:visited{
+	color:#FFFFFF;
+	
+	}
+	
+nav li a:hover{
+	background:#3B2E94;
+}
+
+
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width: 1200px;
+	background: #fff;
+	
+}
+
+
+
+article h2 {
+	font-size: 2em;
+	margin: 0 0 10px 0;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+aside {
+	float: right;
+	background: #eee;
+}
+
+aside h2 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+
+aside li {
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 5px solid #ddd;
+}
+
+aside img {
+height: 130px;
+width: 130px;
+}
+
+footer {
+	clear: both;
+	background: #832A91;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #ffffff;
+    margin-top: 10%;
+
+}
+
+/*  Asides */
+
+article.materias{
+	padding: 15px;
+	border:  1px solid #ddd;
+	float: left;
+	width: 320px;
+    height: 320px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 6px;
+    transition-duration: 0.5s;
+}
+article.materias:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    
+}
+
+
+button{
+	background-color:#832A91;
+	border: none;
+	border-radius: 3px;
+	padding:3px;
+	width:150px;
+	height:40px;
+	font-size:20px;
+	
+	
+}
+
+button:hover{
+    background:#3B2E94;
+}
+
+button a, a:link, a:visited{
+	text-decoration:none;
+	color:#ffffff;
+	background:none;
+	
+	
+}
+img {
+	width: 500px;
+	height:290px;
+	text-align:center;
+	margin-bottom:20px;
+		
+}
+#logo{
+	text-align:center;
+}
+#localizacao{
+	text-align:left;
+	margin-left:140px;
+}	
+
+p.footer{
+	text-align:center;
+	margin-left: 75px;
+	font-size:2em;
+	margin-top:2%;
+}
+
+#redessociais{
+		clear:both;
+}
+#article{
+	margin-left:40px;
+	
+}
+.p_icones{
+	
+	font-size:2.75em;
+	margin-top:0px;
+	display: block;
+	float: left;
+	display: inline;
+}
+
+.p_sociais {
+	margin-left: 430px;
+	font-size:2.75em;
+	
+}
+h1.materias{
+	font-size:5em;
+	text-align:center;
+	margin-top:4%;
+}
+.p_materias{
+	font-size:2em;
+	text-align:center;
+	line-height:1;
+}
+
+img.article{
+	height:150px;
+	width:200px;
+	
+}
+
+.h3subtitles{
+    font-size:3.5em;
+    text-align: center;
+   
+}
+p.conteudos{
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: justify;
+    width: 80%;
+}
+h4{
+    font-size: 2.5em;
+    text-align: center;
+}
+p.fontes{
+    font-size: 1em;
+    text-align: justify;
+}
+.imgmaterias{
+    height: 100px;
+    width: 80px;
+    float: center;
+}
+img.professores{
+    height: 150px;
+    width: 200px;
+    float: right;
+    margin: 2%;
+}
+img.trabalhos{
+    height: 220px;
+    width: 240px;
+    float: center;
+}
+#trabalhos{
+    text-align: center;
+    margin-top: 10%;
+}
+input,textarea,select{
+	display:block;
+	margin-bottom:10px;
+}
+input.dis_inline{
+	display:inline-block;
+}
+
+
+fieldset {
+    border: none;
+    width: 300px;
+    float: left;
+    margin: 3%;
+}
+
+.ou {
+    margin: 10% 0 0 50%;
+    font-size: 5em;
+}
+legend, label {
+    font-size: 2em;
+}
+#mapa{
+    float: right;
+    margin-top: -10%;
+    margin-left: 15%;
+}
